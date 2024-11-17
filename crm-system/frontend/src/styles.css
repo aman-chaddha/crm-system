@@ -1,0 +1,64 @@
+/* Overall page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: cyan; /* Background color set to cyan */
+  text-align: center; /* Align content to the center */
+}
+
+/* Container styling */
+.homepage-container {
+  padding: 20px;
+}
+
+/* Heading styling */
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #333;
+}
+
+/* Divider line styling */
+.divider {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+/* Button container styling */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+/* Custom button styling */
+.custom-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff6600; /* Custom orange color for buttons */
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.custom-button:hover {
+  background-color: #e65c00; /* Darker orange for hover effect */
+}
+
+/* Campaign card styling */
+.campaign-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 15px auto;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 60%;
+  text-align: left;
+}
